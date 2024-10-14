@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hockey's Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="progressBar.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg mt-4">
+            <div class="container">
+                <a class="col-4 fs-1 navbar-brand fw-bold" href="#">Hockey<span class="text-danger">'</span>s</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-items-center gap-4" role="search">
+                        <i class="fa-solid fa-magnifying-glass text-secondary"></i>
+                        <button class="btn btn-danger" type="submit">Get Ticket</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bannerDiv position-relative container mt-4 rounded">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/1.png" class="d-block w-100 carouselIMG" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/2.png" class="d-block w-100 carouselIMG" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/3.png" class="d-block w-100 carouselIMG" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/4.png" class="d-block w-100 carouselIMG" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-icon-controler position-absolute mt-4">
+                <div class="carousel-icons position-relative d-flex gap-4">
+                    <button class="carousel-control-prev position-absolute" type="button"
+                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left p-2 px-3 text-white rounded-circle bg-dark"></i>
+                    </button>
+                    <button class="carousel-control-next position-absolute" type="button"
+                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right p-2 px-3 text-white rounded-circle  bg-dark"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="bannerCard position-absolute mt-4 col-sm-12 col-lg-6 p-3 bg-dark rounded-4">
+                <h5 class="text-white p-2 mt-3">Meet all the heroes from the field</h5>
+                <p class="text-secondary p-2 fs-5 mt-2">Dit amet consectetu. Condimentum dignissim adipiscing aliquam
+                    turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="smallerSpace"></div>
+    <main>
+        <div class="divider my-4 container">
+            <div class="br4"></div>
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="hockeysClubDiv w-50 p-3 m-auto text-center">
+            <h1>Professional Hockeys Club</h1>
+            <p class="fs-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                urna in sit nullam proin.</p>
+        </div>
+
+        <div class="divider my-4 container">
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="clubDetailsDiv container">
+            <div class="row text-center">
+                <div class="col-lg-3 p-3">
+                    <div class="progress red m-auto">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">87%</div>
+                    </div>
+                    <h4 class="my-3">Prayer Facility</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <div class="col-lg-3 p-3">
+                    <div class="progress green m-auto">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">95%</div>
+                    </div>
+                    <h4 class="my-3">Experienced Coach</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <div class="col-lg-3 p-3">
+                    <div class="progress yellow m-auto">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">90%</div>
+                    </div>
+                    <h4 class="my-3">Senior Player</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+                <div class="col-lg-3 p-3">
+                    <div class="progress blue m-auto">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">80%</div>
+                    </div>
+                    <h4 class="my-3">Training Ground</h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider container">
+            <div class="br4"></div>
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="programSectionDiv w-50 p-3 m-auto text-center">
+            <h1>Program Sections</h1>
+            <p class="fs-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                urna in sit nullam proin.</p>
+        </div>
+
+        <div class="divider my-4 container">
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="programCardDiv container">
+            <div class="row text-white">
+                <div class="col-sm-12 col-lg-6 p-1">
+                    <div class="bgProgram juniorProgram rounded-4 p-5 m-2">
+                        <h2 class="pt-10">Junior Program</h2>
+                        <p class="fs-5 py-1">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                            sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed
+                            et in.</p>
+                        <button class="btn btn-danger">Register Now!</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 p-1">
+                    <div class="bgProgram teenagerProgram rounded-4 p-5 m-2">
+                        <h2 class="pt-10">Teenager Program</h2>
+                        <p class="fs-5 py-1">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                            sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed
+                            et in.</p>
+                        <button class="btn btn-danger">Register Now!</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-12 p-1">
+                    <div class="bgProgram professionalProgram rounded-4 p-5 m-2">
+                        <h2 class="pt-pp">Professional Program</h2>
+                        <p class="fs-5 py-1 w-50">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                            sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed
+                            et in.</p>
+                        <button class="btn btn-danger">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider container">
+            <div class="br4"></div>
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="ourNewProductsDiv w-50 p-3 m-auto text-center">
+            <h1>Our New Products</h1>
+            <p class="fs-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                urna in sit nullam proin.</p>
+        </div>
+
+        <div class="divider my-4 container">
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="dressdiv container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 p-2">
+                    <div class="card rounded-4 p-3 m-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="card-img-top" src="img/5.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="card-body text-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i> 5.0 <i class="fa-regular fa-eye"></i>
+                                    20 <i class="fa-regular fa-heart"></i> 200
+                                    <h5 class="card-title product-title text-dark my-1">World Cup Flags Football</h5>
+                                    <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                                    <div class="priceCartDiv">
+                                        <span class="text-danger fw-bold price">Price - <i class="fa-solid fa-dollar-sign"></i>22.50 </span>
+                                        <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free </span>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-2">
+                    <div class="card rounded-4 p-3 m-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="card-img-top" src="img/6.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="card-body text-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i> 5.0 <i class="fa-regular fa-eye"></i>
+                                    20 <i class="fa-regular fa-heart"></i> 200
+                                    <h5 class="card-title product-title text-dark my-1">World Cup Flags Football</h5>
+                                    <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                                    <div class="priceCartDiv">
+                                        <span class="text-danger fw-bold price">Price - <i class="fa-solid fa-dollar-sign"></i>22.50 </span>
+                                        <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free </span>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-2">
+                    <div class="card rounded-4 p-3 m-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="card-img-top" src="img/7.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="card-body text-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i> 5.0 <i class="fa-regular fa-eye"></i>
+                                    20 <i class="fa-regular fa-heart"></i> 200
+                                    <h5 class="card-title product-title text-dark my-1">Cup For Hockeys</h5>
+                                    <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                                    <div class="priceCartDiv">
+                                        <span class="text-danger fw-bold price">Price - <i class="fa-solid fa-dollar-sign"></i>22.50 </span>
+                                        <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free </span>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-2">
+                    <div class="card rounded-4 p-3 m-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="card-img-top" src="img/8.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="card-body text-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i> 5.0 <i class="fa-regular fa-eye"></i>
+                                    20 <i class="fa-regular fa-heart"></i> 200
+                                    <h5 class="card-title product-title text-dark my-1">World Cup Flags Football</h5>
+                                    <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                                    <div class="priceCartDiv">
+                                        <span class="text-danger fw-bold price">Price - <i class="fa-solid fa-dollar-sign"></i>22.50 </span>
+                                        <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free </span>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-2">
+                    <div class="card rounded-4 p-3 m-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="card-img-top" src="img/9.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="card-body text-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i> 5.0 <i class="fa-regular fa-eye"></i>
+                                    20 <i class="fa-regular fa-heart"></i> 200
+                                    <h5 class="card-title product-title text-dark my-1">World Cup Flags Football</h5>
+                                    <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                                    <div class="priceCartDiv">
+                                        <span class="text-danger fw-bold price">Price - <i class="fa-solid fa-dollar-sign"></i>22.50 </span>
+                                        <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free </span>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-2">
+                    <div class="card rounded-4 p-3 m-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="card-img-top" src="img/10.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="card-body text-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i> 5.0 <i class="fa-regular fa-eye"></i>
+                                    20 <i class="fa-regular fa-heart"></i> 200
+                                    <h5 class="card-title product-title text-dark my-1">World Cup Flags Football</h5>
+                                    <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                                    <div class="priceCartDiv">
+                                        <span class="text-danger fw-bold price">Price - <i class="fa-solid fa-dollar-sign"></i>22.50 </span>
+                                        <span><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free </span>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider my-4 container">
+            <div class="br4"></div>
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="clientsQuestionDiv w-50 p-3 m-auto text-center">
+            <h1>Clients Question</h1>
+            <p class="fs-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                urna in sit nullam proin.</p>
+        </div>
+
+        <div class="divider my-4 container">
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="clientsAnswerDiv container">
+            <div class="row rounded rounded-4 p-3 border m-1">
+                <div class="col-sm-12 col-md-5 col-lg-5 my-3">
+                    <img src="img/11.png" alt="" class="queryIMG">
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 my-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header mb-2">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                    aria-controls="flush-collapseOne">
+                                    Our Equipment
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                                    elit enim sagittis turpis in magna.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header my-2">
+                                <button class="accordion-button fw-bold collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Hockeys Training
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                                    elit enim sagittis turpis in magna.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header my-2">
+                                <button class="accordion-button fw-bold collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Private Lessons
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                                    elit enim sagittis turpis in magna.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header my-2">
+                                <button class="accordion-button fw-bold collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Ski Touring
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                                    elit enim sagittis turpis in magna.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header my-2">
+                                <button class="accordion-button fw-bold collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Booking
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                                    elit enim sagittis turpis in magna.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header my-2">
+                                <button class="accordion-button fw-bold collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    Pricings
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                                    elit enim sagittis turpis in magna.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider my-4 container">
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+        <div class="clientsQuestionDiv w-50 p-3 m-auto text-center">
+            <h1>Get In Touch</h1>
+            <p class="fs-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                urna in sit nullam proin.</p>
+        </div>
+
+        <div class="divider my-4 container">
+            <img src="img/Line 2.png" class="w-100" alt="">
+        </div>
+
+
+        <div class="getInTouchDiv container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 p-2">
+                    <div class="m-1 border rounded-4">
+                        <div class="p-5 m-4 rounded-4 phoneCard">
+                            <img src="img/Group 1171275317.png" alt="">
+                            <br> <br>
+                            <span class="text-secondary">Phone Number :</span>
+                            <h5>(+62) 123-321-543</h5>
+                        </div>
+                        <div class="p-5 m-4 rounded-4 emailCard">
+                            <img src="img/Group 1171275318.png" alt="">
+                            <br> <br>
+                            <span class="text-secondary">Email :</span>
+                            <h5>hockeys@support.com</h5>
+                        </div>
+                        <div class="p-5 m-4 rounded-4 locationCard">
+                            <img src="img/Group 1171275321.png" alt="">
+                            <br> <br>
+                            <span class="text-secondary">Location :</span>
+                            <h5>152/1 Mohakhali Wireless Gate</h5>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-7 col-sm-12">
+                    <form class="m-1 row">
+                        <div class="my-3 col-sm-12 col-lg-6">
+                            <label for="exampleInputEmail" class="form-label fw-bold">Your Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail"
+                                placeholder="Enter your full name">
+                        </div>
+                        <div class="my-3 col-sm-12 col-lg-6">
+                            <label for="exampleInputPassword" class="form-label fw-bold">Your Email</label>
+                            <input type="password" class="form-control" id="exampleInputPassword"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="my-3 col-sm-12 col-lg-6">
+                            <label for="exampleInputSubject" class="form-label fw-bold">Subject</label>
+                            <input type="text" class="form-control" id="exampleInputSubject"
+                                placeholder="Enter your Subject">
+                        </div>
+                        <div class="my-3 col-sm-12 col-lg-6">
+                            <label for="exampleInputPhone" class="form-label fw-bold">Phone Number</label>
+                            <input type="tel" class="form-control" id="exampleInputPhone"
+                                placeholder="Enter your phone number">
+                        </div>
+                        <div class="my-3 col-sm-12 col-lg-12">
+                            <label for="exampleFormControlTextarea1" class="form-label fw-bold">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="16"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="my-3 col-sm-12 col-lg-12">
+                            <button type="submit" class="btn btn-danger fw-bold w-100">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="socialMediaDiv container m-auto text-center">
+            <div class="socialIconsDiv rounded-4 p-5">
+                <h4>Social Media</h4>
+                <i class="mx-2 fa-brands fa-twitter"></i>
+                <i class="mx-2 fa-brands fa-facebook-f"></i>
+                <i class="mx-2 fa-brands fa-instagram"></i>
+                <i class="mx-2 fa-brands fa-github"></i>
+            </div>
+        </div>
+    </main>  
+    
+    <br>
+    <footer class="footerDiv text-secondary mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-5 getInTouchFooter">
+                    <h2 class="text-white">Get In Touch</h2>
+                    <p>Dit amet consectetur. Condimentum adipiscing aliquam turpis piacerat dolor. Purus urna in sit nullam proin.</p>
+                    <i class="text-danger fa-regular fa-envelope"></i> <span class="mx-3">hockeys@support.com</span> <br>
+                    <i class="text-danger fa-solid fa-phone"></i> <span class="mx-3">(+62) 123-321-543</span>
+                </div>
+                <div class="col-sm-12 col-lg-7">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 companyDiv"> 
+                            <h5 class="text-white">Company</h5>
+                            <div class="d-flex flex-column gap-2">
+                                <span  >About us</span>  
+                                <span >Leadership</span> 
+                                <span  >Careers</span>  
+                                <span >News & Article</span>  
+                                <span >Legal Notice</span> 
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 supportDiv">
+                            <h5 class="text-white">Support</h5>
+                            <div class="d-flex flex-column gap-2">
+                                <span  >Help Center</span>  
+                                <span >FAQ</span> 
+                                <span  >Ticket Support</span>  
+                                <span >Contact Us</span>   
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 serviceDiv">
+                            <h5 class="text-white">Services</h5>
+                            <div class="d-flex flex-column gap-2">
+                                <span  >Academy</span>  
+                                <span >Group Lesson</span> 
+                                <span  >Private Lesson</span>  
+                                <span >Hockeys for kids</span>  
+                                <span >Hockeys for Adult</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

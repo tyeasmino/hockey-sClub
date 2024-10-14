@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.carouselIMG {
+    height: 600px;
+}
+
+.bannerCard {
+    bottom: 20px;
+    right: 30px;
+} 
+
+.carousel-icon-controler {
+    left: 50px;
+    bottom: 30px;
+}
+ 
+.carousel-control-next {
+    left: 50px;
+}
+
+.br4 {
+    height: 80px;
+}
+
+.pt-10 {
+    padding-top: 70px;
+}
+
+.bgProgram { 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border: none;
+} 
+
+.juniorProgram {
+    background-image: linear-gradient(#00000068, #00000059), url("img/2.png");
+}
+
+.teenagerProgram {
+    background-image: linear-gradient(#00000068, #00000059), url("img/3.png");
+}
+
+.professionalProgram {
+    height: 500px; 
+    background-image: linear-gradient(#00000068, #00000059), url("img/4.png");
+}
+
+.pt-pp {
+    padding-top: 220px;
+}
+ 
+.fa-cart-shopping {
+    margin-left: 20px;
+}
+ 
+.product-title {
+    font-weight: 700;
+}
+
+.phoneCard {
+    background-color: #F8FDEF;
+}
+
+.emailCard {
+    background-color: #FFFBEF;
+}
+
+.locationCard {
+    background-color: #EEF5FD;
+}
+
+.getInTouchDiv input, .getInTouchDiv textarea {
+    border: none;
+    background-color: #F8F8F8;
+    padding: 20px;
+    outline: none;
+}
+
+.getInTouchDiv input::placeholder, .getInTouchDiv textarea::placeholder {
+    color: rgb(198, 197, 197);
+}
+
+.socialIconsDiv {
+    background-color: #F8F8F8;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.footerDiv {
+    background-color: #141319;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.getInTouchFooter {
+    padding-right: 215px;
+}

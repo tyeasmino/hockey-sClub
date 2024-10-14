@@ -1,0 +1,140 @@
+@media only screen and (min-width: 320px) and (max-width: 421px) {
+    .carouselIMG {
+        height: 200px;
+    }
+
+    .carousel-icon-controler {
+        left: 130px;
+        bottom: 30px;
+    }
+
+    .bannerCard {
+        left: 12px;
+        right: 12px;
+        top: 200px;
+        bottom: -200px;
+    } 
+
+    .bannerCard h5 {
+        font-size: 16px;
+    }
+
+    .bannerCard p {
+        font-size: 12px !important;
+    }
+
+    .smallerSpace {
+        margin-top: 130px;
+    }
+
+    .hockeysClubDiv, .programSectionDiv, 
+    .ourNewProductsDiv, .clientsQuestionDiv {
+        width: 100% !important;
+    }
+
+    main h1 {
+        font-size: 20px;
+    }
+    
+    .hockeysClubDiv p, .programSectionDiv p, 
+    .ourNewProductsDiv p, .clientsQuestionDiv p {
+        font-size: 14px !important;
+        padding: 2px;
+    } 
+    
+    .bgProgram {
+        height: 220px;  
+        padding: 0px 20px !important; 
+
+    }
+
+    .pt-10 {
+        padding-top: 30px;
+    }
+    
+    .bgProgram h2 {
+        font-size: 18px; 
+    }
+
+    .bgProgram p {
+        width: 100% !important;
+        font-size: 13px !important; 
+    }
+
+    .pt-pp {
+        padding-top: 30px;
+    }
+    
+    .dressdiv .card-img-top {
+        height: 160px !important;
+    }
+
+    .dressdiv h5 {
+        font-size: 16px;
+    }
+
+    .dressdiv .card-text {
+        font-size: 12px;
+    }
+
+    .priceCartDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-cart-shopping {
+        margin-left: 0px;
+    }
+
+    .priceCartDiv {
+        font-size: 14px;
+    }
+
+    .queryIMG {
+        width: 100%;
+        height: 160px;
+    }
+
+
+    .getInTouchDiv img {
+        width: 30px;
+    }
+
+    .getInTouchDiv span, h5 {
+        font-size: 16px !important;
+    }
+
+    .phoneCard, .emailCard, .locationCard {
+        padding: 20px 25px !important;
+    }
+
+    .getInTouchDiv form {
+        margin: 0 !important;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    .socialIconsDiv {  
+        margin-right: 0px;
+    }
+
+    .socialIconsDiv {
+        padding: 40px !important;
+        margin: 12px;
+    }
+
+    .footerDiv {
+        text-align: center;
+    }
+
+    .getInTouchFooter { 
+        padding: 0;
+    }
+    
+    .companyDiv, .supportDiv {
+        width: 50%; 
+        margin: 40px 0;
+    }
+}
